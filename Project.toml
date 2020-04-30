@@ -1,0 +1,13 @@
+name = "FileRules"
+uuid = "fe542603-c708-4fb9-9a21-f0569f4a4158"
+authors = ["Qi Zhang <singularitti@outlook.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

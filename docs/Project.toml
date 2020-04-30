@@ -1,0 +1,3 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+FileRules = "fe542603-c708-4fb9-9a21-f0569f4a4158"

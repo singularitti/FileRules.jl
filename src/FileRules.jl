@@ -9,7 +9,7 @@ struct Touch
     filemode::Integer
     dirmode::Unsigned
 end
-Touch(path) = Touch(path, 0o777, 0o777)
+Touch(path; filemode = 0o777, dirmode = 0o777) = Touch(path, filemode, dirmode)
 function (t::Touch)()
     p = expanduser(t.path) |> Path
     if hasparent(p)
